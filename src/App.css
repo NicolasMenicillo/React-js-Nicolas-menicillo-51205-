@@ -17,3 +17,12 @@
 background-color: lightgray;
 font-size: 17px;
 }
+
+.App{
+  text-align: center;
+  color: red;
+}
+
+.logo{
+  background-color: lightgray;;
+}
