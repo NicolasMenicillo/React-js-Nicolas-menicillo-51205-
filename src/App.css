@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+
   height: 10rem;
 }
 
@@ -10,19 +11,37 @@
   margin-top: auto;
   display: flex;
   gap: 2rem;
+
 }
 
-.div-botones{
-  border: none;
-background-color: lightgray;
-font-size: 17px;
+.div-botones {
+  border: solid 2px;
+  border-radius: 10px;
+  background-color: lightgray;
+  font-size: 17px;
+
 }
 
-.App{
-  text-align: center;
+.div-botones:hover{
+  border: solid 2px red;
+}
+
+.saludo{
   color: red;
+  padding: 2rem;
+
+  font-size: 20px;
+  font-family: cursive;
 }
 
-.logo{
-  background-color: lightgray;;
+.logo {
+  height: auto;
+  width: 18rem;
+}
+
+.carro{
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  gap: 0.5rem;
 }

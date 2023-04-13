@@ -1,8 +1,9 @@
 const CartWidget = () => {
     return (
-        <div>
+        <div className="carro">
             <i className="bi bi-cart"></i>
-            0
+            5
+            
         </div>
     )
 }

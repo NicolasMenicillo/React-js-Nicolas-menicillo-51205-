@@ -13,9 +13,9 @@ function App() {
   return (
     <div className = "App">
       <NavBar />
-      <ItemListContainer greeting={'Compra y venta de usados'}/>
+      <ItemListContainer greeting={'Compra de autos a escala !'}/>
     </div>
   );
 }
 
-export default App;
+export default App

@@ -1,0 +1,110 @@
+[
+    {
+        "id": "doge 1500",
+        "titulo": "Doge 1500",
+        "imagen": "../imagen/camaro.jpg",
+        "precio": "$ 2652"
+    },
+    {
+        "id": "camaro",
+        "titulo": "Camaro",
+        "imagen": "../imagen/camaro.jpg",
+        "precio": "$ 3200"
+    }, 
+    {
+        "id": "impala",
+        "titulo": "Impala",
+        "imagen": "../imagen/impala.jpg",
+        "precio": "$ 5000"
+    },
+    {
+        "id": "fiat 600",
+        "titulo": "Fiat 600",
+        "imagen": "../imagen/600.jpg",
+        "precio": "$ 1600"
+    },
+    {
+        "id": "fiat 147",
+        "titulo": "Fiat 147",
+        "imagen": "",
+        "precio": "$ 2500"
+    },
+    {
+        "id": "mustang",
+        "titulo": "Mustang",
+        "imagen": "",
+        "precio": "$ 6542"
+    },
+    {
+        "id": "mondeo",
+        "titulo": "Mondeo",
+        "imagen": "",
+        "precio": "$ 4123"
+    },
+    {
+        "id": "ferrari",
+        "titulo": "Ferrari 458",
+        "imagen": "",
+        "precio": "$ 7854"
+    },
+    {
+        "id": "kawasaki",
+        "titulo": "Kawasaki Z1000",
+        "imagen": "",
+        "precio": "$ 3500"
+    },
+    {
+        "id": "kawa",
+        "titulo": "Kawasaki Ninja",
+        "imagen": "",
+        "precio": "$ 6400"
+    },
+    {
+        "id": "harley",
+        "titulo": "Harley Davinson Street 750",
+        "imagen": "",
+        "precio": "$ 8540"
+    },
+    {
+        "id": "honda",
+        "titulo": "Honda CBX 1050",
+        "imagen": "",
+        "precio": "$ 5400"
+    },
+    {
+        "id": "bajaj",
+        "titulo": "Dominar 400",
+        "imagen": "",
+        "precio": "$ 2500"
+    },
+    {
+        "id": "volvo",
+        "titulo": "Volvo 540",
+        "imagen": "",
+        "precio": "$ 4123"
+    },
+    {
+        "id": "bomberos",
+        "titulo": "Cambion de bomberos",
+        "imagen": "",
+        "precio": "$ 2600"
+    },
+    { 
+        "id": "ford 915",
+        "titulo": "Ford 915",
+        "imagen": "",
+        "precio": "$ 4250"
+    },
+    {
+        "id": "1114",
+        "titulo": "Mercedes 1114",
+        "imagen": "",
+        "precio": "$ 6542"
+    },
+    {
+        "id": "scania",
+        "titulo": "Scania 380",
+        "imagen": "",
+        "precio": "$ 7410"
+    }
+]
