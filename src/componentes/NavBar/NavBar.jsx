@@ -1,21 +1,33 @@
+import { NavLink } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget"
 import Logo from './logo.png'
+import { Fragment } from "react";
+import ListOptionNavBarComponent from "./ListOptionNavBarComponent";
+
 
 
 const NavBar = () => {
-    return (
-        <nav className="nav">
-            <img className="logo" src={Logo} alt=""></img>
+    const categories = [
+        "Electronics",
+        "Jewelery",
+        "Men's clothing",
+        "Women's clothing",
+    ];
 
-            <div className="botones">
-                <button className="div-botones">Autos</button>
-                <button className="div-botones">Camionetas</button> 
-                <button className="div-botones">Motos</button>
-                
+
+    return (
+        <Fragment>
+            <div className="navbar">
+                <div className="logo">
+                    <NavLink to="/">
+                        <img src={Logo} alt="" />
+                    </NavLink>
+                </div>
+                <ListOptionNavBarComponent categories={categories} />
+                <CartWidget data={0} />
             </div>
-            <CartWidget />
-        </nav>
+        </Fragment>
     );
 }
 
-export default NavBar
+export default NavBar;
