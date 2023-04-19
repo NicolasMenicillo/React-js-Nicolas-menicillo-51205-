@@ -14,7 +14,7 @@ const InformationViews = (props) => {
 
         <Fragment>
             <div className="">
-                <div className="">
+                <div className="tarjetas">
                     <div className="">
                         <div className="">
                             <h5>{title}</h5>

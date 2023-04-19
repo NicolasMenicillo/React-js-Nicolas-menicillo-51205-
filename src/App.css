@@ -1,47 +1,63 @@
-.nav {
-  background-color: lightgray;
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(210, 210, 210);
+}
+
+
+
+
+.logo{
+  width: 55%;
+}
+
+
+.categorias-nav{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-
-  height: 10rem;
+  gap: 3rem;
 }
 
-.botones {
-  margin-top: auto;
-  display: flex;
-  gap: 2rem;
 
-}
 
-.div-botones {
-  border: solid 2px;
-  border-radius: 10px;
-  background-color: lightgray;
-  font-size: 17px;
-
-}
-
-.div-botones:hover{
-  border: solid 2px red;
-}
-
-.saludo{
+.hola{
+  text-decoration-line: none;
+  font-weight: bold;
   color: red;
-  padding: 2rem;
-
-  font-size: 20px;
-  font-family: cursive;
 }
 
-.logo {
-  height: auto;
-  width: 18rem;
+.hola:hover{
+  color: black;
 }
+
+
 
 .carro{
-  font-size: 1.3rem;
-  font-weight: bold;
   display: flex;
-  gap: 0.5rem;
+  align-items: center;
+}
+
+.carrito{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+
+}
+
+.tarjetas-cartas{
+  
+}
+
+.tarjetas{
+  border: 2px solid black;
+  border-radius: 1rem;
+  margin: 3rem;
+  
+  
 }

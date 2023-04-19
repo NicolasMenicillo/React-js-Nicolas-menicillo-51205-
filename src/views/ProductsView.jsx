@@ -12,7 +12,7 @@ const ProductsView = (props) => {
   return (
     <Fragment>
 
-      <div className="">
+      <div className="container">
         {load ? (
           <h1>Cargando Productos...</h1>
         ) : (

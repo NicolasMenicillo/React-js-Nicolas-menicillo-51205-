@@ -18,9 +18,9 @@ const NavBar = () => {
     return (
         <Fragment>
             <div className="navbar">
-                <div className="logo">
+                <div>
                     <NavLink to="/">
-                        <img src={Logo} alt="" />
+                        <img className="logo" src={Logo} alt="" />
                     </NavLink>
                 </div>
                 <ListOptionNavBarComponent categories={categories} />

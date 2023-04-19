@@ -5,7 +5,7 @@ const ListOptionNavBarComponent = (props) =>{
     const {categories} = props;
 
     return(
-        <div>
+        <div className="categorias-nav">
             {categories.map((category, index)=>{
                 return <OptionNavBarComponent key={index} category={category} />
             })}

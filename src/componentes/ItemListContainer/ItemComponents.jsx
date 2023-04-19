@@ -17,8 +17,8 @@ const ItemComponents = (props) => {
   
 
   return (
-    <div className="">
-      <div className="">
+    <div className="tarjetas">
+      <div className="tarjetas-cartas">
         <h5>{showShortValue(title, 35)}</h5>
         <NavLink to={`/products/` + id}>
           <button className="">Mas Info</button>
