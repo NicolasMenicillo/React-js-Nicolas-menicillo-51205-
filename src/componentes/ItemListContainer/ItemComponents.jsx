@@ -18,17 +18,19 @@ const ItemComponents = (props) => {
 
   return (
     <div className="tarjetas">
-      <div className="tarjetas-cartas">
-        <h5>{showShortValue(title, 35)}</h5>
+      <div className="tarjetas-info-titulo">
+        <h5 className="tarjetas-info">{showShortValue(title, 30)}</h5>
         <NavLink to={`/products/` + id}>
-          <button className="">Mas Info</button>
+          <button className="tarjetas-mas-info">Mas Info</button>
         </NavLink>
       </div>
       <div className="">
-        <p>{showShortValue(description, 40)}</p>
-        <img width={400} height={300} src={image} alt="" />
-        <p>{price}$</p>
-       <button>agregar</button>
+        <p>{showShortValue(description, 30)}</p>
+        <img className="tarjetas-imagen"  src={image} alt="" />
+        <div className="tarjeta-precio-agregar">
+        <p className="tarjeta-precio">{price}$</p>
+       <button className="tarjetas-agregar">agregar</button>
+       </div>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-around;
   background-color: rgb(210, 210, 210);
@@ -7,12 +7,12 @@
 
 
 
-.logo{
+.logo {
   width: 55%;
 }
 
 
-.categorias-nav{
+.categorias-nav {
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -20,29 +20,29 @@
 
 
 
-.hola{
+.hola {
   text-decoration-line: none;
   font-weight: bold;
   color: red;
 }
 
-.hola:hover{
+.hola:hover {
   color: black;
 }
 
 
 
-.carro{
+.carro {
   display: flex;
   align-items: center;
 }
 
-.carrito{
+.carrito {
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.container{
+.container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -50,14 +50,118 @@
 
 }
 
-.tarjetas-cartas{
+
+
+
+.tarjetas {
+  border: 5px solid black;
+  border-radius: 1rem;
+  margin: 3rem;
+
+
+}
+
+
+.tarjetas-info-titulo {
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px ;
+  border-radius: 10px;
+  background-color: rgb(254, 119, 119);
+}
+
+
+
+.tarjetas-info {
+  font-size: 1rem;
+}
+
+
+.tarjetas-mas-info {
+  margin: 1rem;
+}
+
+
+
+.tarjetas-imagen {
+  width: 17rem;
+  height: 17rem;
+}
+
+.tarjeta-precio-agregar{
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px ;
+  border-radius: 10px;
+  background-color: rgb(254, 119, 119);
+
+}
+
+
+.tarjetas-agregar{
+  margin: 1rem;
+  font-weight: bold;
+
+}
+
+.tarjeta-precio{
+  font-weight: 600;
+}
+
+
+.producto-informacion{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5rem;
   
 }
 
-.tarjetas{
-  border: 2px solid black;
-  border-radius: 1rem;
-  margin: 3rem;
-  
+.producto-titulo{
+display: flex;
+justify-content: center;
+border: solid 5px;
+border-radius: 15px;
+max-width: 500px;
+}
+
+.producto-img{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.producto-titulo-desc{
+  border: solid 1px ;
+  border-radius: 10px;
+  background-color: rgb(254, 119, 119);
   
 }
+
+.producto-precio-comprar{
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px ;
+  border-radius: 10px;
+  background-color: rgb(254, 119, 119);
+}
+
+.producto-comprar{
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.producto-precio{
+  font-weight: 600;
+}
+
+.producto-descripcion{
+max-width: 500px;
+
+}
+
+.categortias{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ text-align: center;
+}
+

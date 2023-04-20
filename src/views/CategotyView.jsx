@@ -10,13 +10,13 @@ const CategoryView = (props) => {
 
     return (
         <Fragment>
-            <div className="">
+            <div className="categortias">
                 {load ? (
                     <h1>Cargando Productos...</h1>
                 ) : (
                     data.map((product, index) => {
                         return (
-                            <div key={index}>
+                            <div className="categorias-info" key={index}>
                                 <ItemComponents data={product} />
                             </div>
                         );
