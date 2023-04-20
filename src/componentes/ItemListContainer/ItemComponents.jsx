@@ -28,7 +28,7 @@ const ItemComponents = (props) => {
         <p>{showShortValue(description, 30)}</p>
         <img className="tarjetas-imagen"  src={image} alt="" />
         <div className="tarjeta-precio-agregar">
-        <p className="tarjeta-precio">{price}$</p>
+        <p className="tarjeta-precio">${price}</p>
        <button className="tarjetas-agregar">agregar</button>
        </div>
       </div>

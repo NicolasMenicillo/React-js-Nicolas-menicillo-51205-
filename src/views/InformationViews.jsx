@@ -24,7 +24,7 @@ const InformationViews = (props) => {
                             <img className="producto-img" width={400} height={300} src={image} alt="" />
                         </div>
                         <div className="producto-precio-comprar">
-                            <p className="producto-precio">{price}$</p>
+                            <p className="producto-precio">${price}</p>
                             <NavLink>
                                 <button className="producto-comprar">Comprar</button>
                             </NavLink>
