@@ -35,6 +35,8 @@
 .carro {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 .carrito {
@@ -81,7 +83,16 @@
   margin: 1rem;
 }
 
-
+.btn-danger{
+  color: black;
+  font-weight:bold;
+  width: 2rem;
+  height: 2rem;
+  margin-top: .5rem;
+  background-color: rgb(255, 25, 0);
+  border: red;
+  border-radius: .5rem;
+}
 
 .tarjetas-imagen {
   width: 17rem;

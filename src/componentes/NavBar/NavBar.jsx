@@ -1,12 +1,15 @@
 import { NavLink } from "react-router-dom";
-import CartWidget from "../CartWidget/CartWidget"
+
 import Logo from './logo.png'
-import { Fragment } from "react";
+import { Fragment, useContext } from "react";
 import ListOptionNavBarComponent from "./ListOptionNavBarComponent";
+import GeneralContext from "../Conteeext/GeneralContext";
+
 
 
 
 const NavBar = () => {
+    const { car } = useContext(GeneralContext);
     const categories = [
         "Electronics",
         "Jewelery",
@@ -24,7 +27,10 @@ const NavBar = () => {
                     </NavLink>
                 </div>
                 <ListOptionNavBarComponent categories={categories} />
-                <CartWidget data={0} />
+
+                <NavLink className= "carro" to="/products/car">
+                    <h3 className="bi bi-cart">{car.length}</h3> 
+                </NavLink>
             </div>
         </Fragment>
     );
